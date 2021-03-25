@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Science API</title>
+  </head>
+
+  <body>
+    <div class='login'>
+      <h1>Movie Recommender</h1>
+
+      <form action="{{url_for('predict')}}" method='post'>
+	<input type='number' name='user_id' placeholder='your user number :)' required='required' />
+	<button type='submit' class='btn btn-primary btn-block btn-large'>Predict</button>
+      </form>
+      <br>
+      {{prediction_text}}
+      <br>
+      {{movie_1}}
+      <br>
+      {{movie_2}}
+      <br>
+      {{movie_3}}
+      <br>
+      {{movie_4}}
+      <br>
+      {{movie_5}}
+      <br>
+      {{movie_6}}
+      <br>
+      {{movie_7}}
+      <br>
+      {{movie_8}}
+      <br>
+      {{movie_9}}
+      <br>
+      {{movie_10}}
+
+    </div>
+  </body>
+</html>
