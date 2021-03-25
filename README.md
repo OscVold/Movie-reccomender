@@ -1,1 +1,1 @@
-# Movie-reccomender
+# Movie recommender and rating prediction project
